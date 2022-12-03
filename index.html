@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        table {
+            font-family: sans-serif;
+            text-align: left;
+            border-collapse: separate;
+            border-spacing: 0px 0px;
+            background-color: white;
+        }
+        th {
+            text-align: center;
+            padding: calc(7.5px + 7.5px);
+        }
+        td {
+            padding: 10px;
+            background-color:blanchedalmond;
+            border: 1px solid black;
+        }
+        table td:nth-child(odd) {
+            background-color: white;
+        }
+
+        table td:nth-child(even) {
+            background-color: gainsboro;
+        }
+
+/* Стили для формы */
+        /* .fromsElem{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        } */
+        input {
+            margin: 5px;
+        }
+        .text {
+            width: 150px;
+            height: 20px;
+            margin-top: 6px;
+            border-radius: 6px;
+            background-color: aqua;
+        }
+       .btn1 {
+            
+       }
+       .btn2 {
+          
+       }
+
+    </style>
+</head>
+<body>
+   <div class="wrapper">
+    <h1>Табличка employees</h1>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Last name</th>
+            <th>Salary</th>
+            <th>Job</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td >Steven</td>
+            <td>King</td>
+            <td>20000</td>
+            <td>it_prog</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>Alex</td>
+            <td>Wilyam</td>
+            <td>17000</td>
+            <td>it_prog</td>
+            <td>39</td>
+        </tr>
+        <tr>
+            <td>Lex</td>
+            <td>King</td>
+            <td>20000</td>
+            <td>it_prog</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>Neena</td>
+            <td>Wilyam</td>
+            <td>17000</td>
+            <td>it_prog</td>
+            <td>39</td>
+        </tr>
+
+    </table>
+    <form class="fromsElem">
+        <div>
+            <label for="text">Инпут для текста</label>
+            <input id="text" class = 'text' type="text">
+        </div>
+        <div>
+            <label for="btn1">Инпут для кнопки 1</label>
+            <input id = 'btn1'class ='btn1'type="button" value="Submit!">
+        </div>
+        <div>
+            <label for="btn2">Инпут для кнопки 2</label>
+            <input id = 'btn2' class ='btn2'type="button" value="Submit!">
+        </div>
+       </form>
+    </div>
+
+</body>
+</html>
