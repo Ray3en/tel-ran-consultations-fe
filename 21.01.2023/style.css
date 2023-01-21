@@ -1,0 +1,11 @@
+.elem p:first-child{
+    color: purple;
+}
+
+.elem p:last-child{
+    color: brown;
+}
+
+.elem p:nth-child(3n) {
+    color: lime;
+}
