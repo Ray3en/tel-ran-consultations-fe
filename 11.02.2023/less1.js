@@ -83,3 +83,5 @@
 
 // console.log(map2(array, (elem) => elem ** 3))
 // console.log(array.map(elem => elem ** 3))
+
+
