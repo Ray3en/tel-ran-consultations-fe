@@ -1,0 +1,10 @@
+.xmark{
+    color: orange;
+    width: 100px; 
+    height: 100px;
+}
+
+
+.xmark:hover{
+    color: brown;
+}
