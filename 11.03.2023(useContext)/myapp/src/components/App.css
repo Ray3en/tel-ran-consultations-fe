@@ -1,0 +1,17 @@
+.block{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 400px;
+    height: 400px;
+    background-color: aquamarine;
+}
+
+
+@media(max-width: 950px){
+    .block{
+        background-color: brown;
+        flex-direction: column;
+    }
+
+}
