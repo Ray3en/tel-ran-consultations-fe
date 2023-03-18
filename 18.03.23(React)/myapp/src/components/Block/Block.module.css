@@ -1,0 +1,28 @@
+.block_item{
+    margin: 50px;
+    width: 100px;
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: bisque;
+}
+
+
+.xl{
+    width: 500px;
+    height: 500px;
+}
+
+.m{
+    width: 300px;
+    height: 300px;
+}
+
+.l{
+    width: 400px;
+    height: 400px;
+}
