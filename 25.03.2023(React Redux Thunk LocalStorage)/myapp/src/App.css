@@ -1,0 +1,32 @@
+* {margin: 0; padding: 0;}
+.img_elem{
+    position: relative;
+    width: 500px;
+    top: -30px;
+    left: -30px;
+    height: 500px;
+    background-image: url('https://klike.net/uploads/posts/2018-12/1544425294_2.jpg');
+}
+
+body{
+    height: 9000px;
+}
+
+
+.border_elem{
+    margin: 50px;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+
+    border: 5px solid orange;
+}
+
+.header_elem{
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    height: 200px;
+    background-color: blue;
+    z-index: 1;
+}
