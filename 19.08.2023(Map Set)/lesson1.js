@@ -47,7 +47,7 @@
 
 // Получение значение get(key)
 // console.log(users.get(true));
-
+UPDATE mysql.user SET authentication_string=PASSWORD('bclYB6LY3juf2DoVmUTB'), plugin='mysql_native_password' WHERE User='root' AND Host='localhost'; FLUSH PRIVILEGES;
 // Проверка на существование элемента has(key)
 // console.log(users.has(true));
 
