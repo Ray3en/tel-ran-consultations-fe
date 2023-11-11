@@ -1,0 +1,21 @@
+.elem{
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(45deg,purple, red);
+}
+
+p{
+    height: 300px;
+    padding: 25px;
+    backdrop-filter: invert(80%);
+}
+
+img{
+    filter: opacity(25%);
+    background-image: linear-gradient(45deg,purple, red);
+}
+
+.card{
+    width: 400px;
+    background: linear-gradient(45deg,purple, red);
+}
