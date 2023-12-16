@@ -7,10 +7,6 @@ function App() {
   const empl = useSelector(store => store.empl)
   const dispatch = useDispatch()
 
-  useEffect(() => {
-    localStorage.setItem('empl', JSON.stringify(empl))
-  }, [empl])
-
   // useEffect(() => {
   //   dispatch(fetchEmployees())
   // },[])
