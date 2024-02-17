@@ -1,0 +1,25 @@
+.container{
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px
+}
+
+
+.item > img {
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.item{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    border-radius: 25px;
+}
