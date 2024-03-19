@@ -1,0 +1,32 @@
+
+#root {
+    margin: 30px;
+    border: 1px solid black;
+    position: relative;
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cells{
+    width: 50px;
+    height: 50px;
+    outline: 1px solid black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resize{
+    position: absolute;
+    display: block;
+    width: 0.5px;
+    height: 100%;
+    background-color: black;
+
+    right: 0;
+    top: 0;
+
+    cursor: col-resize;
+}
