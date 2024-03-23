@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1100px;
+    padding: 0px 15px;
+}
+header{
+    background-color: bisque;
+}
+.header_wrapper{
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: brown;
+}
+.menu_wrapper{
+    display: flex;
+    gap: 50px
+}
+
+.card{
+    width: 300px;
+    height: 350px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: aqua;
+    align-items: center;
+
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+.card_wrapper{
+    padding-top: 50px;
+    padding-bottom: 25px;
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    justify-content: space-between;
+    gap: 30px
+}
+
+footer{
+    background-color: cadetblue;
+}
+
+.footer_wrapper{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu_burger{
+    display: none;
+}
+
+@media (max-width: 1200px) {
+    .content{
+        max-width: 700px;
+    }
+    .card_wrapper{
+        grid-template-columns: repeat(2, 300px);
+    }
+}
+
+/* Задание 
+Адаптируйте веб-приложение под мобильное разрешение
+*/
+
+@media (max-width: 750px) {
+    .content{
+        max-width: 550px;
+    }
+    .card_wrapper{
+        grid-template-columns: repeat(1, 300px);
+        justify-content: center;
+    }
+    .menu_burger{
+        display: inline-block;
+    }
+    .menu_wrapper{
+        display: none;
+    }
+}
