@@ -1,0 +1,46 @@
+.banner {
+    margin: 10px;
+    background-color: #87933D;
+}
+
+.banner > h2 {
+    text-align: center;
+}
+
+.banner_content{
+    display: flex;
+    align-items: center;
+}
+
+.form_wrapper{
+    padding: 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+}
+
+.form_wrapper > input {
+    width: 80%;
+}
+
+.banner_image {
+    background-image: url('./media/image.png');
+    width: 100%;
+    height: 360px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+@media (max-width: 768px){
+    .banner_content{
+        flex-direction: column-reverse;
+    }
+
+    .banner_image{
+        background-position: center;
+    }
+}
